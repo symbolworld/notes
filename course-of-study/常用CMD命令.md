@@ -79,6 +79,14 @@ ipconfig /renew
 
 `dvdplay`
 
+exe程序开机自启动：
+
+win+R,输入：
+
+`shell:startup`
+
+将快捷方式或者文件放进去即可。
+
 
 
 
