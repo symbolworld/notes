@@ -8,9 +8,9 @@
 
 * 在用户目录下新建一个 **.ssh** 目录，进入**.ssh** ,右键点击：`Git Bash Here`
 
-* 执行：`ssh-agent.exe  -o`
+* 执行：`ssh-keygen -t rsa` 并按回车。(如果提示没有ssh-keygen命令，可以在系统设置中添加可选功能，把openssh客户端和服务端一起安装。)
 
-* 执行完成之后，会在.ssh 目录下生成三个文件。`id_rsa,id_rsa_pub,known_hosts`.其中`id_rsa.pub`是公钥
+* 执行完成之后，会在.ssh 目录下生成两个文件。`id_rsa,id_rsa_pub`.其中`id_rsa.pub`是公钥
 
 * 打开github的设置，选择`SSH Keys`，添加一个`new SSH key`,输入`id_rsa.pub`中的内容。
 
