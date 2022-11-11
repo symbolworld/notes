@@ -38,3 +38,10 @@ Github图床的配置已经设置好了，直接把图片上传上去，复制�
 
 还有更多其他平台可以设置，Github用着暂时没问题，如果出现问题再换个平台。
 
+### 三、遇到的坑
+
+1.出现以下情况
+
+![](https://cdn.staticaly.com/gh/symbolworld/PicGo@main/img/picgo%E5%87%BA%E9%94%99.png)
+
+这是因为打开了fast-github,导致的错误，把fast-github关闭即可。
