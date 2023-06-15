@@ -10,7 +10,7 @@ Git是一个非常强大的版本管理工具，使用它可以方便管理我�
 
 如图
 
-<img src="https://github.com/symbolworld/PicGo/blob/main/img/works.png)" />
+![](https://cdn.staticaly.com/gh/symbolworld/PicGo@main/img/111.png)
 
 我们在使用Git之前，要先在本地初始化环境，可以直接在项目文件夹内初始化。
 
@@ -40,7 +40,7 @@ Git是一个非常强大的版本管理工具，使用它可以方便管理我�
 
 以3人为例：
 
-<img src="https://github.com/symbolworld/PicGo/blob/main/img/merge.png" />
+![](https://cdn.staticaly.com/gh/symbolworld/PicGo@main/img/222.png)
 
 在dev分支上，我们建好了三个分支，ABC三个人做自己的工作，当完成工作时就合并到dev分支上。
 
