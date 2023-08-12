@@ -192,3 +192,9 @@ ffmpeg -i INPUT -vf delogo=x=163:y=116:w=148:h=45:show=0 OUTPUT
 (x,y)和(宽,高)就是水印的位置，如果要准确找到水印位置，可以先截取一张图片，找到(x,y)和(w,h)
 ```
 
+rmvb转mp4
+
+`ffmpeg -i "02.rmvb" -vcodec libx264 -acodec copy "output.mp4"`
+
+
+
