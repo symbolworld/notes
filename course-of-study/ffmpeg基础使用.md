@@ -181,6 +181,7 @@ ffmpeg -i INPUT -f wav -ar 16000 OUTPUT
 参数说明：
 -f： 强制输出格式为wav
 -ar：设置采样频率
+ffmpeg -i INPUT -vn -acodec copy OUTPUT.aac
 ```
 
 音频的转换查看 [音频转码](#四、音频转码)
