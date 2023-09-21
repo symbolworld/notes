@@ -14,6 +14,34 @@ ffprobe 是分析工具，例如查看一个视频的编码格式
 
 这里主要介绍主角 **ffmpeg** 的使用(所有的操作都在cmd命令行中进行)
 
+Linux 安装：
+
+Nux存储库依赖于Epel软件存储库。如果您的系统启用EPEL存储库，请键入以下命令将其启用：
+
+sudo yum install epel-release
+
+接下来，导入Repository GPG密钥并通过安装rpm软件包启用Nux存储库：
+
+sudo rpm -v --import http://li.nux.ro/download/nux/RPM-GPG-KEY-nux.ro
+
+sudo rpm -Uvh http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.nux.noarch.rpm
+
+开始安装：
+
+sudo yum install ffmpeg ffmpeg-devel
+
+检查看装是否成功：
+
+ffmpeg -version
+
+	yum -y install wget
+	wget --no-check-certificate https://www.johnvansickle.com/ffmpeg/old-releases/ffmpeg-4.0.3-64bit-static.tar.xz
+	tar -xJf ffmpeg-4.0.3-64bit-static.tar.xz
+	cd ffmpeg-4.0.3-64bit-static
+	mv ffmpeg /usr/bin && mv ffprobe /usr/bin && mv qt-faststart /usr/bin && mv ffmpeg-10bit /usr/bin
+
+
+
 # 二、视频的封装与编码
 
 ### 视频容器封装格式：
